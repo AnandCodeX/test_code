@@ -23,8 +23,8 @@ const Home = () => {
     <div className="container">
       <div className="py-4">
         <h1>Home Page</h1>
-        <table class="table border shadow">
-          <thead class="thead-dark">
+        <table className="table border shadow">
+          <thead className="thead-dark">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Name</th>
@@ -45,13 +45,13 @@ const Home = () => {
                     View
                   </Link>
                   <Link
-                    class="btn btn-outline-primary mr-2"
+                    className="btn btn-outline-primary mr-2"
                     to={`/users/edit/${user.id}`}
                   >
                     Edit
                   </Link>
                   <Link
-                    class="btn btn-danger"
+                    className="btn btn-danger"
                     onClick={() => deleteUser(user.id)}
                   >
                     Delete
